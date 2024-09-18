@@ -1,0 +1,90 @@
+html {
+  font-size: 16px;
+}
+body {
+  padding: 2%;
+  font-size: 2rem;
+  font-family: sans-serif;
+  line-height: 2.8rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+}
+h1 {
+  font-size: 5.4rem;
+  color: hsl(24, 5%, 18%);
+  line-height: normal;
+}
+h2 {
+  font-size: 3.6rem;
+  color: hsl(14, 45%, 36%);
+}
+h4 {
+  font-size: 2.6rem;
+  color: hsl(332, 51%, 32%);
+}
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+}
+li {
+  padding-left: 2.5%;
+  margin-bottom: 1.2rem;
+}
+.pre-time {
+  background-color: hsl(330, 100%, 98%);
+  width: 92%;
+  border-radius: 1rem;
+  padding: 4%;
+  margin: 0;
+}
+hr {
+  margin-top: 3rem;
+}
+.table {
+  margin-bottom: 1rem;
+}
+.table hr {
+  margin: 0;
+}
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  padding-left: 3rem;
+}
+.table-cell {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.attribution {
+  font-size: 11px !important;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* mobile view */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 1.41rem;
+    padding: 0%;
+  }
+  section {
+    padding: 0 4%;
+  }
+  img {
+    border-radius: 0 !important;
+  }
+  h1 {
+    font-size: 3rem !important;
+  }
+  h2 {
+    font-size: 2.8rem !important;
+  }
+  h4 {
+    font-size: 2rem !important;
+  }
+}
